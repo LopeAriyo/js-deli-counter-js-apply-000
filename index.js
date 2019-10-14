@@ -1,8 +1,3 @@
-var katzDeli = []
-var otherDeli = ["Steven","Blake","Avi"]
-const deliLine = ["Steven", "Blake", "Avi"]
-
-
 function takeANumber(theLine, newCustomer){
 
   var placeInLine = theLine.length + 1
