@@ -18,7 +18,7 @@ function nowServing(theLine){
     return ("There is nobody waiting to be served!")
   } else {
 
-    customerServing= theLine[0]
+    var customerServing= theLine[0]
     theLine.shift()
     theLine
 
