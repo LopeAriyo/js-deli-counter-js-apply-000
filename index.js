@@ -50,7 +50,7 @@ function currentLine(theLine){
 
     theQueue.push([i+1] + ". " + theLine[i])
 
-    whosInLine = whosInLine + theQueue[i] +
+    whosInLine = whosInLine + theQueue[i]
 
     return (whosInLine)
   }
