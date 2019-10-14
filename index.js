@@ -40,13 +40,6 @@ function currentLine(theLine){
     var whosInLine = "The line is currently: "
 
 
-   /* for (var i = 0; i < theLine.length; i++) {
-
-      theQueue.push([i+1] + ". " + theLine[i])
-      whosInLine = whosInLine + theQueue[i]
-
-    } */
-
     while (i < (theLine.length -1)) {
 
       theQueue.push([i+1] + ". " + theLine[i])
@@ -57,7 +50,7 @@ function currentLine(theLine){
 
     theQueue.push([i+1] + ". " + theLine[i])
 
-    whosInLine = whosInLine + theQueue[i] + "."
+    whosInLine = whosInLine + theQueue[i] +
 
     return (whosInLine)
   }
